@@ -1,5 +1,5 @@
-# Badger Detector
+# Bodgeham Smart Pass
 
-For the detection of malicious badgers.
+An i2c reprogrammable NFC hexpansion. See [https://codeberg.org/jna_sh/bodgeham-smart-pass](https://codeberg.org/jna_sh/bodgeham-smart-pass) for more info.
 
 Produced by Bodgeham-on-Wye Electronic Consulting Co-Operative.
