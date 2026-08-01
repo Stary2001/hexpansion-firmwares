@@ -1,0 +1,4 @@
+micropython/
+xtensa-esp-elf/
+xtensa-esp-elf-*.tar.xz
+*.mpy

@@ -3,6 +3,8 @@ from machine import SPI, Pin
 from events.input import Buttons, BUTTON_TYPES
 from system.hexpansion.config import HexpansionConfig
 
+from .factorial import factorial
+
 class SX1262:
     def __init__(self, spi, ncs, busy):
         self.spi = spi
@@ -119,5 +121,7 @@ class LoraApp(app.App):
         else:
             ctx.move_to(0, 0).text("Ready")
         ctx.restore()
+
+print(factorial(10))
 
 __app_export__ = LoraApp
